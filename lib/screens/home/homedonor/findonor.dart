@@ -255,7 +255,7 @@ class _FindDonorState extends State<FindDonor> {
                                           stream[index].data['email'],
                                           widget.requestid,
                                           stream[index].data['distance'],
-                                          request.data['seeker age'],
+                                          request.data['age'],
                                           request.data['date_needed'])
                                     },
                                   setState(() {
@@ -307,7 +307,7 @@ class _FindDonorState extends State<FindDonor> {
                                           stream[index].data['email'],
                                           widget.requestid,
                                           stream[index].data['distance'],
-                                          request.data['seeker age'],
+                                          request.data['age'],
                                           request.data['date_needed'])
                                     },
                                   setState(() {
